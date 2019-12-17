@@ -3,7 +3,7 @@ package pojo;
 /**
  * @Package file.pojo
  * @ClassName Text
- * @Description TODO
+ * @Description 文本格式的实体类
  * @Date 19/12/8 16:08
  * @Author LIM
  * @Version V1.0

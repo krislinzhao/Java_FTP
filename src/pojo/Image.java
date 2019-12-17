@@ -5,7 +5,7 @@ import java.io.FileInputStream;
 /**
  * @Package file.pojo
  * @ClassName Image
- * @Description TODO
+ * @Description 图片格式的实体类
  * @Date 19/12/10 10:55
  * @Author LIM
  * @Version V1.0

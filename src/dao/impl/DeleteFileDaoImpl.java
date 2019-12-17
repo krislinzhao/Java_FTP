@@ -12,7 +12,7 @@ import java.sql.Statement;
 /**
  *@Package dao.impl
  *@ClassName DeleteFileDaoImpl
- *@Description TODO
+ *@Description 删除接口实现类
  *@Date 19/12/14 20:18
  *@Author LIM
  *@Version V1.0

@@ -4,12 +4,11 @@ package dao;
 import pojo.Image;
 import pojo.Text;
 import pojo.Video;
-import pojo.VideoName;
 
 /**
  * @Package file.dao
  * @InterfaceName FileDao
- * @Description TODO
+ * @Description 添加接口
  * @Date 19/12/8 16:12
  * @Author LIM
  * @Version V1.0
@@ -28,14 +27,8 @@ public interface IAddFileDao {
     void imageAdd(Image image);
 
     /**
-     * 插入video文件(全文件)
+     * 插入video文件
      * @param video
      */
     void videoAdd(Video video);
-
-    /**
-     * 插入video文件(名字)
-     * @param videoName
-     */
-    void videoNameAdd(VideoName videoName);
 }

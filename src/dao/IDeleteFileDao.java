@@ -3,7 +3,7 @@ package dao;
 /**
  *@Package dao
  *@InterfaceName IDeleteFileDao
- *@Description TODO
+ *@Description 删除接口
  *@Date 19/12/14 20:17
  *@Author LIM
  *@Version V1.0

@@ -11,7 +11,7 @@ import java.net.Socket;
 /**
  * @Package file
  * @ClassName FileClient
- * @Description TODO
+ * @Description 客户端启动
  * @Date 19/12/6 11:40
  * @Author LIM
  * @Version V1.0
@@ -59,6 +59,7 @@ public class FileClient extends JFrame {
         Share.jScrollPane.setOpaque(false);
 
         renderTop();
+        Share.client = this;
     }
 
 
@@ -66,7 +67,7 @@ public class FileClient extends JFrame {
      * 向服务器重新读取群文件列表
      */
     public static void loadGroupFile() {
-        Share.client_out.println("@action=loadFileList");
+        Share.client_out.println("loadFileList");
     }
 
 
@@ -120,8 +121,9 @@ public class FileClient extends JFrame {
                 if (file != null) {
                     Share.downloadSavePath = file.getPath();
                     //2-向服务器请求下载
-                    Share.client_out.println("@action=Download[" + filename + ":null:null]");
+                    Share.client_out.println("Download[" + filename + ":null:null]");
                 }
+                Share.client.revalidate(); //刷新界面
             }
         });
 
@@ -131,9 +133,17 @@ public class FileClient extends JFrame {
             public void mouseClicked(MouseEvent e) {
                 System.out.println("客户端 要删除的文件是:"+filename);
                 //1-向服务器发送删除的请求
-                Share.client_out.println("@action=Delete[" + filename + ":null:null]");
+                Share.client_out.println("Delete[" + filename + ":null:null]");
             }
         });
+
+        try {
+            Thread.sleep(1500);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+        Share.client.revalidate();  //刷新界面
+
     }
 
     /**
@@ -141,23 +151,20 @@ public class FileClient extends JFrame {
      */
     public static void registerListener() {
         /**
-         * 上传文件    消息格式: @action=Upload["fileName":"fileSize":result]
+         * 上传文件    消息格式: Upload["fileName":"fileSize":result]
          */
         Share.uploadButton.addMouseListener(new MouseAdapter() {
             @Override
             public void mouseClicked(MouseEvent e) {
                 //1-选择上传文件
                 JFileChooser f = new JFileChooser();
-                f.setMultiSelectionEnabled(true);
                 f.showOpenDialog(null);
-                File[] files = f.getSelectedFiles();
-                for(int i=0;i<files.length;i++) {
-                    Share.currentUploadFile = files[i];
-                    if (Share.currentUploadFile != null) {
-                        //2-向服务器请求上传
-                        Share.client_out.println("@action=Upload[" + Share.currentUploadFile.getName() + ":" + Share.currentUploadFile.length() + ":null]");
-                    }
+                Share.currentUploadFile = f.getSelectedFile();
+                if (Share.currentUploadFile != null) {
+                    //2-向服务器请求上传
+                    Share.client_out.println("Upload[" + Share.currentUploadFile.getName() + ":" + Share.currentUploadFile.length() + ":null]");
                 }
+
             }
         });
     }
@@ -174,7 +181,7 @@ public class FileClient extends JFrame {
             Share.client_in = new BufferedReader(new InputStreamReader(Share.client_socket.getInputStream()));
 
             //读取文件列表
-            Share.client_out.println("@action=loadFileList");
+            Share.client_out.println("loadFileList");
 
             //开启线程监听服务器消息
             new ClientThread().start();

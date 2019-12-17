@@ -5,7 +5,7 @@ import java.io.FileInputStream;
 /**
  * @Package file.pojo
  * @ClassName Video
- * @Description TODO
+ * @Description 视频格式的实体类
  * @Date 19/12/10 10:55
  * @Author LIM
  * @Version V1.0

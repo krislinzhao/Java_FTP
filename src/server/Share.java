@@ -5,7 +5,7 @@ import java.net.ServerSocket;
 /**
  * @Package file
  * @ClassName Share
- * @Description 服务端一些共享的变量
+ * @Description 服务端的共享变量
  * @Date 19/12/8 14:53
  * @Author LIM
  * @Version V1.0
@@ -22,4 +22,21 @@ public class Share {
     public static ServerSocket fileServerSocket;
 
     public static String path ="FileList\\";
+
+    /**
+     * image格式
+     */
+    public static String imageTypes = "jpg png jif ";
+    /**
+     * video格式
+     */
+    public static String videoTypes = "mp4 avi dat mkv flv vob qlv";
+    /**
+     * 文本文件格式
+     */
+    public static String textTypes = "txt docx doc ppt pptx pdf c java cpp js html py ";
+    /**
+     * excel格式
+     */
+    public static String excelTypes = "xls xlsx";
 }

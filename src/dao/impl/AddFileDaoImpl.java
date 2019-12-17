@@ -4,7 +4,6 @@ import dao.IAddFileDao;
 import pojo.Image;
 import pojo.Text;
 import pojo.Video;
-import pojo.VideoName;
 import utils.ConnectDB;
 
 import java.io.IOException;
@@ -13,7 +12,7 @@ import java.sql.*;
 /**
  * @Package file.dao.impl
  * @ClassName FilDaoImpl
- * @Description TODO
+ * @Description 添加接口实现类
  * @Date 19/12/8 16:19
  * @Author LIM
  * @Version V1.0
@@ -65,7 +64,7 @@ public class AddFileDaoImpl implements IAddFileDao {
     }
 
     /**
-     * 插入video文件(全文件)
+     * 插入video文件
      *
      * @param video
      */
@@ -85,31 +84,6 @@ public class AddFileDaoImpl implements IAddFileDao {
                 video.setId(id);
             }
         } catch (SQLException | IOException e) {
-            e.printStackTrace();
-        }
-    }
-
-    /**
-     * 插入video文件(名字)
-     *
-     * @param videoName
-     */
-    @Override
-    public void videoNameAdd(VideoName videoName) {
-        String sql="insert into table_videoname values(null,?,?,?)";
-        try(Connection c=ConnectDB.getContext();PreparedStatement ps=c.prepareStatement(sql,Statement.RETURN_GENERATED_KEYS)) {
-            ps.setString(1,videoName.getFilename());
-            ps.setString(2,videoName.getVideoName());
-            ps.setString(3, videoName.getTime());
-
-            ps.execute();
-
-            ResultSet rs = ps.getGeneratedKeys();
-            if (rs.next()){
-                int id = rs.getInt(1);
-                videoName.setId(id);
-            }
-        } catch (SQLException e) {
             e.printStackTrace();
         }
     }
