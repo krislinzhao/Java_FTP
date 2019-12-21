@@ -2,42 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5caebba7-8d28-44f2-b8a5-ac74daf98fcf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/FileList/Java IDEA版.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/client/HandelFileThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/file.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/server/HandleFileThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FileList/2.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FileList/第三章答案.docx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FileList/第二章作业.docx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Service/client/ClientThread$HandelFileThread.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Service/client/ClientThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Service/client/ClientThread.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Service/client/FileClient$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Service/client/FileClient$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Service/client/FileClient$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Service/client/FileClient$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Service/client/FileClient$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Service/client/FileClient$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Service/client/FileClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Service/client/FileClient.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Service/client/Share.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Service/client/Share.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Service/dao/IAddFileDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Service/dao/IAddFileDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Service/dao/impl/AddFileDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Service/dao/impl/AddFileDaoImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Service/pojo/VideoName.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Service/server/ServerThread$HandleFileThread.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Service/server/ServerThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Service/server/ServerThread.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Service/server/Share.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Service/server/Share.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/client/ClientThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/client/ClientThread.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/client/FileClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/client/FileClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/client/Share.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/client/Share.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dao/IAddFileDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dao/IAddFileDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dao/IDeleteFileDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dao/IDeleteFileDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dao/impl/AddFileDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dao/impl/AddFileDaoImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dao/impl/DeleteFileDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dao/impl/DeleteFileDaoImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pojo/Image.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pojo/Image.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pojo/Text.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pojo/Text.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pojo/Video.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pojo/Video.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pojo/VideoName.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/server/FileServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/server/FileServer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/server/ServerThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/server/ServerThread.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/server/Share.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/server/Share.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils/ParseDataUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/ParseDataUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils/ReadExcel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/ReadExcel.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -88,7 +54,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="full.screen.before.presentation.mode" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/RetrofitDownload" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -120,7 +86,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.FileServer">
+  <component name="RunManager" selected="Application.FileClient">
     <configuration name="FileClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="client.FileClient" />
       <module name="Service" />
@@ -197,8 +163,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.FileServer" />
         <item itemvalue="Application.FileClient" />
+        <item itemvalue="Application.FileServer" />
         <item itemvalue="JUnit.DeleteTest.testDelete" />
         <item itemvalue="JUnit.TestCreateSQL.testExclHelper" />
         <item itemvalue="JUnit.DeleteTest.testDeleteExcel" />
@@ -226,7 +192,11 @@
       <workItem from="1576372888621" duration="19626000" />
       <workItem from="1576458805627" duration="19646000" />
       <workItem from="1576547609084" duration="5320000" />
-      <workItem from="1576553893894" duration="1763000" />
+      <workItem from="1576553893894" duration="7401000" />
+      <workItem from="1576641966957" duration="950000" />
+      <workItem from="1576647407266" duration="375000" />
+      <workItem from="1576647968156" duration="2433000" />
+      <workItem from="1576847514923" duration="247000" />
     </task>
     <task id="LOCAL-00001" summary="commit .idea">
       <created>1576475740411</created>
@@ -235,7 +205,14 @@
       <option name="project" value="LOCAL" />
       <updated>1576475740411</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="优化代码结构">
+      <created>1576555801108</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1576555801108</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -257,6 +234,7 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="commit .idea" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit .idea" />
+    <MESSAGE value="优化代码结构" />
+    <option name="LAST_COMMIT_MESSAGE" value="优化代码结构" />
   </component>
 </project>
