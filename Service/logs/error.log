@@ -1,0 +1,2 @@
+2019-12-23 17:25:01  [ Thread-1:194853 ] - [ ERROR ]  The supplied data appears to be in the OLE2 Format. You are calling the part of POI that deals with OOXML (Office Open XML) Documents. You need to call a different part of POI to process this data (eg HSSF instead of XSSF)
+2019-12-23 18:11:34  [ Thread-0:120951 ] - [ ERROR ]  Connection reset

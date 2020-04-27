@@ -1,0 +1,38 @@
+2019-12-23 17:21:46  [ main:0 ] - [ INFO ]  消息传输套接字创建成功
+2019-12-23 17:21:46  [ main:4 ] - [ INFO ]  文件传输套接字创建成功
+2019-12-23 17:24:46  [ main:180357 ] - [ INFO ]  开启一个线程处理客户端请求消息
+2019-12-23 17:24:46  [ Thread-0:180361 ] - [ INFO ]  服务器文件列表:GroupFileList[2.jpg:Java IDEA版.txt]
+2019-12-23 17:25:01  [ Thread-0:194708 ] - [ INFO ]  开启一个上传文件的线程
+2019-12-23 17:25:01  [ Thread-1:194721 ] - [ INFO ]  上传模式
+2019-12-23 17:25:01  [ Thread-1:194727 ] - [ INFO ]  开始上传的excel文件:test1.xlsx
+2019-12-23 17:25:01  [ Thread-1:194728 ] - [ INFO ]  解析excel文件,动态创建数据库
+2019-12-23 17:25:01  [ Thread-1:194853 ] - [ ERROR ]  The supplied data appears to be in the OLE2 Format. You are calling the part of POI that deals with OOXML (Office Open XML) Documents. You need to call a different part of POI to process this data (eg HSSF instead of XSSF)
+2019-12-23 17:25:01  [ Thread-1:194855 ] - [ INFO ]  excel文件上传结束
+2019-12-23 17:25:02  [ Thread-0:195988 ] - [ INFO ]  服务器文件列表:GroupFileList[2.jpg:Java IDEA版.txt:test1.xlsx]
+2019-12-23 17:37:51  [ Thread-0:965441 ] - [ INFO ]  开启一个上传文件的线程
+2019-12-23 17:37:51  [ Thread-2:965464 ] - [ INFO ]  上传模式
+2019-12-23 17:37:51  [ Thread-2:965468 ] - [ INFO ]  开始上传的excel文件:1.xlsx
+2019-12-23 17:37:51  [ Thread-2:965468 ] - [ INFO ]  解析excel文件,动态创建数据库
+2019-12-23 17:37:52  [ Thread-2:966410 ] - [ INFO ]  excel文件上传结束
+2019-12-23 17:37:53  [ Thread-0:966840 ] - [ INFO ]  服务器文件列表:GroupFileList[1.xlsx:2.jpg:Java IDEA版.txt:test1.xlsx]
+2019-12-23 17:40:41  [ main:0 ] - [ INFO ]  消息传输套接字创建成功
+2019-12-23 17:40:42  [ main:6 ] - [ INFO ]  文件传输套接字创建成功
+2019-12-23 17:40:48  [ main:6571 ] - [ INFO ]  开启一个线程处理客户端请求消息
+2019-12-23 17:40:48  [ Thread-0:6582 ] - [ INFO ]  服务器文件列表:GroupFileList[1.xlsx:2.jpg:Java IDEA版.txt:test1.xlsx]
+2019-12-23 17:41:04  [ Thread-0:22451 ] - [ INFO ]  开启一个上传文件的线程
+2019-12-23 17:41:04  [ Thread-1:22465 ] - [ INFO ]  上传模式
+2019-12-23 17:41:04  [ Thread-1:22471 ] - [ INFO ]  开始上传的excel文件:usr.xlsx
+2019-12-23 17:41:04  [ Thread-1:22473 ] - [ INFO ]  解析excel文件,动态创建数据库
+2019-12-23 17:41:05  [ Thread-1:23437 ] - [ INFO ]  excel文件上传结束
+2019-12-23 17:41:05  [ Thread-0:23620 ] - [ INFO ]  服务器文件列表:GroupFileList[1.xlsx:2.jpg:Java IDEA版.txt:test1.xlsx:usr.xlsx]
+2019-12-23 18:09:33  [ main:0 ] - [ INFO ]  消息传输套接字创建成功
+2019-12-23 18:09:33  [ main:12 ] - [ INFO ]  文件传输套接字创建成功
+2019-12-23 18:09:41  [ main:7826 ] - [ INFO ]  开启一个线程处理客户端请求消息
+2019-12-23 18:09:41  [ Thread-0:7839 ] - [ INFO ]  服务器文件列表:GroupFileList[ ]
+2019-12-23 18:10:03  [ Thread-0:30123 ] - [ INFO ]  开启一个上传文件的线程
+2019-12-23 18:10:03  [ Thread-1:30136 ] - [ INFO ]  上传模式
+2019-12-23 18:10:03  [ Thread-1:30143 ] - [ INFO ]  开始上传的excel文件:username2.xls
+2019-12-23 18:10:03  [ Thread-1:30143 ] - [ INFO ]  解析excel文件,动态创建数据库
+2019-12-23 18:10:04  [ Thread-1:30822 ] - [ INFO ]  excel文件上传结束
+2019-12-23 18:10:04  [ Thread-0:31188 ] - [ INFO ]  服务器文件列表:GroupFileList[username2.xls]
+2019-12-23 18:11:34  [ Thread-0:120951 ] - [ ERROR ]  Connection reset
