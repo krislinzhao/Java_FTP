@@ -1,0 +1,25 @@
+<component name="libraryTable">
+  <library name="lib1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/Service/lib/commons-collections4-4.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Service/lib/poi-3.17.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Service/lib/slf4j-log4j12-1.7.25.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Service/lib/commons-io-2.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Service/lib/slf4j-api-1.7.25.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Service/lib/poi-ooxml-3.17.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Service/lib/poi-ooxml-schemas-3.17.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Service/lib/mysql-connector-java-5.1.47.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Service/lib/pdfbox-2.0.12.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Service/lib/spring-core-5.1.5.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Service/lib/fontbox-2.0.17.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Service/lib/xmlbeans-2.6.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Service/lib/log4j-1.2.17.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Service/lib/poi-scratchpad-3.17.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Service/lib/junit-4.12.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Service/lib/hamcrest-all-1.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Service/lib/commons-logging-1.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

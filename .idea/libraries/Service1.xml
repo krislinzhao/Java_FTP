@@ -1,0 +1,25 @@
+<component name="libraryTable">
+  <library name="Service1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/Service/out/production/Service/slf4j-api-1.7.25.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Service/out/production/Service/poi-ooxml-schemas-3.17.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Service/out/production/Service/fontbox-2.0.17.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Service/out/production/Service/poi-scratchpad-3.17.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Service/out/production/Service/pdfbox-2.0.12.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Service/out/production/Service/slf4j-log4j12-1.7.25.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Service/out/production/Service/hamcrest-all-1.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Service/out/production/Service/poi-3.17.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Service/out/production/Service/commons-io-2.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Service/out/production/Service/commons-logging-1.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Service/out/production/Service/poi-ooxml-3.17.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Service/out/production/Service/log4j-1.2.17.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Service/out/production/Service/xmlbeans-2.6.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Service/out/production/Service/junit-4.12.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Service/out/production/Service/commons-collections4-4.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Service/out/production/Service/spring-core-5.1.5.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Service/out/production/Service/mysql-connector-java-5.1.47.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -22,6 +22,7 @@ public class Share {
     public static Share getShare() {
         return share;
     }
+    
     public static final int port = 8848;
     /**
      *普通消息传输服务器套接字
